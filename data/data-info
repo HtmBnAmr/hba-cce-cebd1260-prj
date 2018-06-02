@@ -1,0 +1,36 @@
+Data references:
+The data set is available at the UCI machine learning archive (http://archive.ics.uci.edu/ml/datasets/Heart+Disease). 
+It consists of 4 different data sets coming from the following sources:
+Hungarian Institute of Cardiology. Budapest: Andras Janosi, M.D. 
+University Hospital, Zurich, Switzerland: William Steinbrunn, M.D. 
+University Hospital, Basel, Switzerland: Matthias Pfisterer, M.D. 
+V.A. Medical Center, Long Beach and Cleveland Clinic Foundation: Robert Detrano, M.D., Ph.D.
+
+Data overview:
+The data sets originally have 76 attributes (variables) but only 14 were used in research works.
+   Attr01. #3  (age)       
+   Attr02. #4  (sex)       
+   Attr03. #9  (cp: chest pain type)        
+   Attr04. #10 (trestbps: restin blood pressure)  
+   Attr05. #12 (chol: cholesterol)      
+   Attr06. #16 (fbs: fasting blood sugar > 120 mg)       
+   Attr07. #19 (restecg: resting electrocardiographic)   
+   Attr08. #32 (thalach: maximum heart rate achieved)   
+   Attr09. #38 (exang: exercised induced angina)     
+   Attr10. #40 (oldpeak: ST depression induced by exercise relative to rest)   
+   Attr11. #41 (slope: slope of the peak exercise segment)     
+   Attr12. #44 (ca: number of major vessels coloured by florosopy)        
+   Attr13. #51 (thal: 3=normal, 6=fixed defect, 7=reversible defect)      
+   Attr14. #58 (num)(goal: diagnosis of heart disease)
+
+The number of instances (observation) are 
+      	Cleveland	    : 303
+        Hungarian	    : 294
+        Switzerland	  : 123
+      	Long Beach VA	: 200
+More details about data sources are below.
+		        Database	    :   0   1   2   3   4 Total
+          	Cleveland 	  : 164  55  36  35  13   303
+           	Hungarian	    : 188  37  26  28  15   294
+          	Switzerland	  :   8  48  32  30   5   123
+      	  	Long Beach VA	:  51  56  41  42  10   200
